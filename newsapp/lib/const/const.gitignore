@@ -1,0 +1,9 @@
+//e104bb19105f4b49b44bc465c2b3a3bd
+class Strings {
+  var API_KEY='e104bb19105f4b49b44bc465c2b3a3bd';
+  // static String news_url =
+  //     'http://newsapi.org/v2/everything?domains=wsj.com&apiKey=API_KEY';
+   static String news_url =
+      'http://newsapi.org/v2/everything?domains=wsj.com&apiKey=0d6951baca4d45b4857224f116d63ae7';
+}
+////0d6951baca4d45b4857224f116d63ae7
