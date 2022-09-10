@@ -1,1 +1,1 @@
-simple newsapp by use of API 
+simple newsapp by use of API on  flutter
