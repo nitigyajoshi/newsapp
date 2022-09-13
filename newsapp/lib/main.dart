@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:newsapp/home.dart';
+import 'package:newsapp/provider/api_manager.dart';
+import 'package:newsapp/screen/home.dart';
+import 'package:provider/provider.dart';
+import'package:newsapp/widget/tabbar.dart';
 //flutter run --no-sound-null-safety
 void main() {
   runApp(const MyApp());
@@ -19,9 +22,13 @@ class MyApp extends StatelessWidget {
       ),
       home:Scaffold(
 body:
+ChangeNotifierProvider(create: (context)=>API_Manager(),
+child:
+tab(),)
+// HomePage(),)
 
-HomePage()
-// ]
+//HomePage()
+ //]
 
 )
 

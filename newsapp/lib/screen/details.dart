@@ -20,8 +20,7 @@ class _DetailsState extends State<Details> {
   @override
   Widget build(BuildContext context) {
 
-    print('/////////////');
-  print(widget.description);
+
     return Scaffold(
 appBar: AppBar(backgroundColor: Colors.white12,title: Text('Details..'),),
 body: ListView(
@@ -30,9 +29,9 @@ body: ListView(
   children: [
 Image.network(widget.image),
 Text(widget.title,style: TextStyle(color: Colors.red,fontSize: 25,fontWeight: FontWeight.bold),),
-Expanded(child: Text(widget.source))
+Expanded(child: Text('details:'))
        , Expanded(child: Text(
-        widget.description,maxLines: 10,
+        widget.description
         )),
       //  Text(widget.source),
 
